@@ -1,0 +1,51 @@
+{
+	"name": "save-typing",
+	"displayName": "Save Typing",
+	"description": "Auto save file while typing",
+	"version": "0.1.0",
+	"publisher": "akhail",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Save typing configuration",
+			"properties": {
+				"save-typing.languages": {
+					"type": "array",
+					"default": [
+						"*"
+					],
+					"description": "Languaged that the extension will be activated"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.5.3",
+		"vscode": "^1.1.5",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "658b5664-4b80-4bba-9fb9-6e212e6d223d",
+		"publisherId": "6a7b4e40-9af4-43a2-b83b-7049c943b4a2",
+		"publisherDisplayName": "Michel Betancourt",
+		"installedTimestamp": 1628494269957
+	}
+}

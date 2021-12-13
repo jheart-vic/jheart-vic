@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.func = exports.deg = exports.decimalPercent = exports.percent = exports.unit = exports.number = exports.pad = exports.clamp = void 0;
+const padImpl = require("pad");
+const clamp = (val, min, max) => Math.min(max, Math.max(min, val));
+exports.clamp = clamp;
+const pad = (val, count) => padImpl(count, '' + val, '\u00A0');
+exports.pad = pad;
+const number = (val, padding) => '`\u200B' + exports.pad(val, padding + 2) + '`';
+exports.number = number;
+const unit = (unit, val, padding) => exports.number(val + unit, padding);
+exports.unit = unit;
+const percent = (val, padding) => exports.unit('%', +(val).toFixed(2), padding);
+exports.percent = percent;
+const decimalPercent = (val, padding) => exports.percent(val * 100, padding);
+exports.decimalPercent = decimalPercent;
+const deg = (val, padding) => exports.unit('\u00B0', +(val).toFixed(2), padding);
+exports.deg = deg;
+const func = (name, ...keys) => `**${name}(**${keys.join(', ')}**)**`;
+exports.func = func;
+//# sourceMappingURL=display_helper.js.map

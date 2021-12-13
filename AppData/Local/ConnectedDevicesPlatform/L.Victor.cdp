@@ -1,0 +1,26 @@
+﻿{
+   "AfcDatabaseSettings" : {
+      "DatabaseInstanceId" : 0,
+      "LastUpdated" : "2021-08-05T20:19:24.068"
+   },
+   "AfsActivityTypes" : [],
+   "AfsChannelUri" : "",
+   "AfsEnvironment" : "",
+   "AfsSubscriptionId" : "",
+   "AfsSubscriptionUpdateTime" : "0000-00-00T00:00:00.000",
+   "BaseRegisteredInfoHash" : "",
+   "CNCNotificationUri" : "",
+   "CNCNotificationUriExpirationTime" : "0000-00-00T00:00:00.000",
+   "CNCNotificationUriLastSynced" : "0000-00-00T00:00:00.000",
+   "DdsRegistrationExpiryTickCount" : 2719195334368,
+   "Devices" : [],
+   "FormatVersion" : 12,
+   "LastRegisteredNotificationUri" : "",
+   "LastRegisteredNotificationUriExpirationTime" : "0000-00-00T00:00:00.000",
+   "LastSyncedTime" : "0000-00-00T00:00:00.000",
+   "LogicalDeviceId" : "",
+   "NextDataEncryptionKeyRolloverTime" : "2021-08-07T03:19:25.000Z",
+   "RegisteredInfoHash" : "",
+   "RegisteredWithStrongAuth" : false,
+   "StableUserId" : "L.Victor"
+}
