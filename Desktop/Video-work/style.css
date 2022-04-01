@@ -89,3 +89,7 @@
     font-weight: lighter;
     font-size: 20px;
   }
+  textarea::placeholder{
+    font-weight: lighter;
+    font-size: 18px;
+  }
