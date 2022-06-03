@@ -17,7 +17,7 @@
 
 - 💻 **I'm open to new opportunities**
 
-- 💬 Ask me about anything [here](https://github.com/jheart-vic/github-readme-stats)
+- 💬 Ask me about anything [here](https://github.com/jheart-vic/jheart-vic/issues)
 
 
 
