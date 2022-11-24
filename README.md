@@ -7,9 +7,9 @@
 
 **About me**
 
-- 🤠  I'm a student and mentor at Microverse
+- 🤠  I'm a Full-Stack Certified Developer, who graduated from microverse
 
-- 💼 I am very good at pair programming (Driver / navigation method).
+- 💼 I am very good at pair programming [Take a look at my portfolio](https://jheart-vic.github.io/My-Portfolio-Website/).
 
 - 📈 currently learning Full stack web development in a remote multicultural environment, 
 
