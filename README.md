@@ -9,7 +9,7 @@
 
 - 🤠  I'm a Full-Stack Certified Developer, who graduated from microverse
 
-- 💼 I am very good at pair programming [Take a look at my portfolio](https://jheart-vic.github.io/My-Portfolio-Website/).
+- 💼 I am very good at pair programming [take a look at my portfolio](https://jheart-vic.github.io/My-Portfolio-Website/).
 
 - 📈 currently learning Full stack web development in a remote multicultural environment, 
 
